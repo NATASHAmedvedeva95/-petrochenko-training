@@ -19,3 +19,5 @@ const firstQuestion = prompt('Один из последних просмотр�
 const secondQuestion = prompt('На сколько оцените его?');
 
 personalMovieDB.movies[firstQuestion]=secondQuestion;
+ 
+console.log(personalMovieDB);
